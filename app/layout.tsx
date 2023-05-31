@@ -10,6 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
+            
             <body className="font-inter text-sm font-normal text-black antialiased">
                 <Header />
                 <main className="mt-10">{children}</main>
